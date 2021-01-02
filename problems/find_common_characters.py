@@ -4,6 +4,12 @@ LAST_SYMBOLS_LOWER_CASE_STRING = 'z'
 from typing import List
 """
 https://leetcode.com/problems/find-common-characters/
+https://leetcode.com/problems/find-common-characters/submissions/
+
+next 
+
+https://leetcode.com/problems/word-ladder-ii/
+https://leetcode.com/problems/contiguous-array/
 """
 
 
