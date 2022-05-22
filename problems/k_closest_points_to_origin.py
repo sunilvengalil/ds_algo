@@ -9,7 +9,7 @@ class Solution:
         for point in points:
             distance = point[0] * point[0] + point[1] * point[1]
             if len(queue) < K:
-                heappush(queue,(-distance,point))
+                heappush(queue,(-distance, point))
                 if distance > current_max:
                     current_max = distance
             else:

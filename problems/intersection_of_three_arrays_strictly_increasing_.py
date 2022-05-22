@@ -13,6 +13,7 @@ from typing import List
 
 
 class Solution:
+
     def arraysIntersection(self, arr1: List[int], arr2: List[int], arr3: List[int]) -> List[int]:
         # Initialize pointer to second and third array to 0
         pointer2 = 0
@@ -36,7 +37,7 @@ class Solution:
                     pointer3 = pointer3 + 1
             else:
                 pointer2, pointer3 = self.update_pointer(arr2, arr3, e, pointer2, pointer3, result)
-            #print(pointer2, pointer3)
+            # print(pointer2, pointer3)
         return result
 
     def update_pointer(self, arr2, arr3, e, pointer2, pointer3, result):
