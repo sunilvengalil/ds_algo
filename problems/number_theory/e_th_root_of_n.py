@@ -10,7 +10,6 @@ def e_th_root(e, n):
         digit += 1
 
     print(f"n={n}  len = {len}  k={k} m={m}")
-
     for i in range(k - 1, -1, -1):
         digit = 0
         while digit < B and (m + B ** i) ** e <= n:
